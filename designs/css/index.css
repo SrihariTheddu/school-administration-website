@@ -1,0 +1,155 @@
+/* Links */
+
+*{
+				margin:0;
+				}
+
+.header-box{
+				max-width:100%;
+				display:grid;
+				grid-template-columns:3fr;
+				background-color:#5eb351;
+				padding:1%;
+				}
+.reference-link{
+				color:white;
+				font-style:Times New Roman;
+				text-decoration:none;
+				text-align:center;
+				}
+
+.home-link{
+				margin:0% 30%;
+				
+				}
+
+@media screen and (min-width:650px){
+				.header-box{
+								grid-template-columns:1fr 1fr 1fr;
+								}
+				}
+
+
+
+
+/* INDEX CSS */
+
+.division-box{
+				       max-width:100%;
+								display:grid;
+								grid-template-columns:1fr;
+								background-color:black;
+								padding:2%;
+								}
+
+#align{
+				margin:2% 15%;
+				}
+
+.reference1{
+				padding:1%;
+				background-color:#e27ba3;
+				}
+
+.reference2{
+				padding:1%;
+				background-color:#7be2d8;
+				}
+
+
+.reference3{
+				padding:1%;
+				background-color:#a928e2;
+				}
+
+
+.reference4{
+				padding:1%;
+				background-color:#9af971;
+				}
+
+.reference5{
+				padding:1%;
+				background-color:#ff8a2e;
+				}
+.reference6{
+   padding:1%;
+   background-color:yellow;
+}
+
+.icon{
+				height:70%;
+				width:70%;
+				}
+
+.label_tag{
+font-size:2em;
+				color:white;
+				text-align:center;
+				}
+
+
+@media screen and (min-width:650px){
+				
+				.division-box{
+								max-width:100%;
+								display:grid;
+								grid-template-columns:1fr 1fr 1fr;
+								}
+				.icon{
+				height:50%;
+				width:50%;
+				margin:0%;
+				}
+				
+				.label_tag{
+				color:white;
+				font-size:2em;
+				text-align:center;
+				}
+				}
+
+
+
+
+/* FOOTER CSS */
+
+.footer-boot-strap{
+				max-width:100%;
+				display:grid;
+				grid-template-columns:3fr;
+				
+				padding:10%;
+				background-color:#0ea067;
+				}
+				
+				
+.footer-box{
+				margin:10%;
+				}
+
+.long-row-box{
+					 display:grid;
+					grid-template-columns:3fr;
+					}
+
+a.footer-link{
+				color:white;
+				font-style:Times New Roman;
+				}
+.my-box{
+margin:5%;
+}
+
+
+@media screen and (min-width:650px){
+				
+				.footer-boot-strap{
+								display:grid;
+								grid-template-columns:1fr 1fr 1fr;
+								grid-gap:2em;
+								}
+				
+				}
+
+
