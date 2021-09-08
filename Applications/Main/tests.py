@@ -1,0 +1,13 @@
+from django.test import TestCase
+import os
+import sys
+import django
+
+
+__docs__ = """
+eghoewkjpg kgnlken;rhk;ohkt;kjkyjjkjikhjtrj
+nkengrjknkrjnh jjkhtihlkngkjre
+
+"""
+
+# Create your tests here.
